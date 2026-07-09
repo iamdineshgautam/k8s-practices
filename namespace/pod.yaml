@@ -6,7 +6,7 @@ metadata:
     app: myapp
   namespace: test
 spec:
-  container:
+  containers:
     - name: nginx-container
       image: nginx:latest
       ports:
