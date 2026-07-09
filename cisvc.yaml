@@ -4,7 +4,7 @@ metadata:
   name: ciservice
   labels: 
     app: myapp
-specs:
+spec:
   type: ClusterIP
   selector:
     app: myapp
