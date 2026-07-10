@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: app-container
-          image: mayurpandit25/react-app:latest
+          image: mayurpandit25/studentapp-frontend:latest
           ports:
             - name: app-port 
               containerPort: 80
