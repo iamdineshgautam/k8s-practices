@@ -30,7 +30,7 @@ metadata:
   name: rc-svc 
   labels: 
     app: myapp 
-  spec:
+spec:
     type: NodePort
     selector:
       app: myapp 
