@@ -13,7 +13,7 @@ spec:
       type: RollingUpdate
       rollingUpdate:
         maxSurge: 1
-        maxavailable: 1
+        maxUnavailable: 1
     template:
       metadata:
         name: my-template
@@ -25,7 +25,7 @@ spec:
             image: nginx:latest
             ports:
               - name: nginx-port
-                containePort: 80
+                containerPort: 80
 
 ...
 ---
