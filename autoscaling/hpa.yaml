@@ -1,4 +1,4 @@
-apiversion: autoscaling/v1 
+apiVersion: autoscaling/v1 
 kind: HorizontalPortScaler
 metadata:
   name: hpa 
