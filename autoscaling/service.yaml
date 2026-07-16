@@ -1,0 +1,15 @@
+apiversion: v1
+kind: Service
+metadata:
+  name: my-svc
+  labels:
+    app: myapp
+  namespace: hpa
+spec:
+  type: ClusterIP
+  selectors:
+    app: myapp
+  ports:
+    - name: my-svc-port 
+      port: 80
+      targetPort: 80
